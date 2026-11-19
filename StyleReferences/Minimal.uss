@@ -1,0 +1,18 @@
+/* Minimal — Aisjam design principle reference. Shared semantic tokens. */
+.ais-root { background-color: var(--ais-base); color: var(--ais-text); }
+.ais-panel { background-color: var(--ais-surface); border-left-width: 0px; border-left-color: var(--ais-outline); border-right-width: 0px; border-right-color: var(--ais-outline); border-top-width: 0px; border-top-color: var(--ais-outline); border-bottom-width: 0px; border-bottom-color: var(--ais-outline); border-radius: 8px; padding: 24px; }
+.ais-card { background-color: var(--ais-elevated); border-left-width: 0px; border-left-color: var(--ais-outline); border-right-width: 0px; border-right-color: var(--ais-outline); border-top-width: 0px; border-top-color: var(--ais-outline); border-bottom-width: 0px; border-bottom-color: var(--ais-outline); border-radius: 10px; padding: 24px; margin-bottom: 8px; }
+.ais-label, .ais-title, .ais-heading { color: var(--ais-text); }
+.ais-divider { height: 1px; background-color: var(--ais-outline); margin-top: 8px; margin-bottom: 8px; }
+.ais-button { min-height: 36px; padding-left: 15px; padding-right: 15px; background-color: var(--ais-primary); color: var(--ais-on-primary); border-radius: 6px; border-left-width: 0px; border-left-color: var(--ais-outline); border-right-width: 0px; border-right-color: var(--ais-outline); border-top-width: 0px; border-top-color: var(--ais-outline); border-bottom-width: 0px; border-bottom-color: var(--ais-outline); -unity-text-align: middle-center; transition-property: background-color, border-radius; transition-duration: 0.15s; }
+.ais-button:hover { background-color: var(--ais-primary-hover); }
+.ais-button:active { background-color: var(--ais-primary-pressed); }
+.ais-button--accent, .ais-button--accent:hover { background-color: var(--ais-accent); color: var(--ais-on-accent); }
+.ais-button--actionable, .ais-button--actionable:hover { background-color: var(--ais-actionable); color: var(--ais-on-actionable); }
+.ais-button--blocked, .ais-button--blocked:hover { background-color: var(--ais-blocked); color: var(--ais-on-blocked); }
+.ais-button--disabled { background-color: var(--ais-disabled); color: var(--ais-text-muted); }
+.ais-input { min-height: 36px; background-color: var(--ais-surface); color: var(--ais-text); border-radius: 8px; padding-left: 9px; padding-right: 9px; border-left-width: 1px; border-left-color: var(--ais-outline); border-right-width: 1px; border-right-color: var(--ais-outline); border-top-width: 1px; border-top-color: var(--ais-outline); border-bottom-width: 1px; border-bottom-color: var(--ais-outline); }
+.ais-input:focus { border-left-color: var(--ais-accent); border-top-color: var(--ais-accent); border-right-color: var(--ais-accent); border-bottom-color: var(--ais-accent); }
+.ais-shape--square { border-radius: 0px; }
+.ais-shape--rounded { border-radius: 12px; }
+.ais-shape--pill { border-radius: 999px; }

@@ -1,1 +1,17 @@
-{"name":"com.aisjam.themegenerator","version":"0.1.0","unity":"6000.0"}
+{
+  "name": "com.aisjam.themegenerator",
+  "version": "0.1.0",
+  "displayName": "Aisjam Theme Generator",
+  "description": "Five-colour semantic Unity UI Toolkit theme generator with seven design presets and two fonts.",
+  "unity": "6000.0",
+  "author": {
+    "name": "Aisjam"
+  },
+  "keywords": [
+    "uitoolkit",
+    "uss",
+    "tss",
+    "theme",
+    "design-system"
+  ]
+}
